@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SolarMaster - Sistema de Gerenciamento de Energia Solar
 
-## Getting Started
+![SolarMaster Logo](public/favicon.svg)
 
-First, run the development server:
+Desenvolvido com React.js, Next.js e Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Funcionalidades Planejadas
+
+- Login e autenticação de usuários
+- Dashboard de monitoramento de painéis solares
+- Visualização de dados de geração de energia
+- Relatórios de economia e eficiência
+- Configurações personalizáveis
+
+## Tecnologias Utilizadas
+
+- **Next.js**: Framework React para aplicações web
+- **React**: Biblioteca JavaScript para interfaces de usuário
+- **Tailwind CSS**: Framework CSS utilitário para design moderno
+- **TypeScript**: Linguagem com tipagem estática baseada em JavaScript
+- **Framer Motion**: Biblioteca para animações fluidas
+
+## Estrutura do Projeto
+
+```
+/src
+ ├── /pages
+ │    ├── _app.tsx      // Configuração global da aplicação
+ │    ├── index.tsx     // Página de redirecionamento
+ │    └── login.tsx     // Página de login personalizada
+ ├── /componentes
+ │    └── FormularioLogin.tsx  // Componente do formulário de login
+ ├── /styles
+ │    └── globals.css   // Estilos globais e customizações
+ └── /utils
+      └── validacao.ts  // Utilitários de validação
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tema Personalizado
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto utiliza um tema personalizado inspirado em energia solar, com:
+- Paleta de cores em tons de amarelo e laranja
+- Gradientes e elementos de design sustentável
+- Interface moderna e clean
+- Animações interativas
+- Suporte a tema claro/escuro
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Credenciais de Teste
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email: teste@email.com
+- Senha: 123456

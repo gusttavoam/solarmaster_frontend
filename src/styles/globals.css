@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  input, button, textarea, select {
+    font-family: inherit;
+  }
+}
+
+/* Animações personalizadas */
+@layer utilities {
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
+/* Customização para o tema solar */
+.solar-gradient {
+  @apply bg-gradient-to-r from-amber-500 to-orange-600;
+}
+
+.solar-text {
+  @apply text-amber-600;
+}
+
+/* Estilos para inputs com foco */
+.input-focus {
+  @apply focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent;
+} 
