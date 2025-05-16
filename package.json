@@ -1,5 +1,5 @@
 {
-  "name": "site-gerenciamento-energia",
+  "name": "solar-master",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,20 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@babel/runtime": "^7.27.1",
-    "framer-motion": "^12.11.3",
-    "next": "^14.2.28",
+    "js-cookie": "^3.0.5",
+    "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "regenerator-runtime": "^0.14.1"
+    "recharts": "^2.10.3",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.4"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
-    "typescript": "^5.3.3"
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.4",
+    "postcss": "^8.4.31"
   }
 }
